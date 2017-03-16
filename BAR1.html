@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+  <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+  <!-- Inline CSS based on choices in "Settings" tab -->
+  <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./BAR.css" />
+  <script defer src="BAR.js" charset="utf-8"></script>
+
+  <title>B.A.R.</title>
+</head>
+
+
+
+<body class="body">
+
+  <header class="header row">
+    <div class="col-xs-12">
+      <ul class="nav nav-pills navbar-fixed-top">
+        <li><a class="nav-links" href="#">Who is Aaron?</a></li>
+        <li><a class="nav-links" href="#">WTF is Numerology?</a></li>
+        <li><a class="nav-links" href="#">Otherlink</a></li>
+        <ul>
+        </div>
+      </header>
+
+      <br>
+
+      <!-- Container 1 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-10 col-xs-push-1">
+            <img id="berry" class="img-responsive col-sm-push-4" src="BARberry.png" alt="">
+          </div>
+        </div>
+        <div class="row text-center">
+          <h4>"Why are my fingers all blue?"</h4>
+        </div>
+        <div class="row">
+          <div class="col-xs-2">
+          </div>
+          <div class="col-xs-8 text-center jumbotron">
+            <h1 class="border-style"><strong>Blueberries are real.</strong></h1>
+          </div>
+        </div>
+        <div class="row text-center">
+          <h4>The first step is awareness...</h4>
+        </div>
+
+        <div class="row">
+          <div class="column-xs-5 text-center">
+            <button id="page-down" type="button" class="btn btn-lg">
+              <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div> <!-- Close Container 1 -->
+
+        <hr>
+
+        <!-- Container 2  -->
+        <div class="container bottom-container text-center"> <!-- bottom container -->
+          <div class="empty1">
+          </div>
+
+          <div class="row blub-form">
+            <div class="col-xs-6 col-xs-push-1 blub-form-img">
+              <img class="img-responsive col-sm-push-4" src="BARberry.png" alt="">
+            </div>
+            <div class="col-xs-3 col-xs-pull-3 blub-form-text">
+              <h3>"What is your name and birthday? I'll tell you the berry blue facts"</h3>
+            </div>
+          </div>
+
+
+          <div class="row">
+
+            <form id="name-bday-submit">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <h4 class="form-label"><strong>Full Name:</strong></h4>
+                    <input class="form-inline" id="first-name" name="first-name" placeholder="First" type="text"/>
+                    <input class="form-inline" id="last-name" name="last-name" placeholder="Last" type="text"/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <h4 class="form-label"><strong>Birthdate:</strong></h4>
+                    <input class="form-inline" id="month" name="bday-month" placeholder="Month" type="text"/>
+                    <input class="form-inline" id="day" name="bday-day" placeholder="Day" type="text"/>
+                    <input class="form-inline" id="year" name="bday-year" placeholder="Year" type="text"/>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-inline">
+                <div class="text-center">
+                  <button id="next" class="btn btn-lg" name="submit" type="submit">
+                    Next
+                  </button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+
+
+          <div class="row empty2">
+          </div>
+
+        </div> <!-- Close Container 2 -->
+
+        <hr>
+
+        <!-- Container 3 -->
+        <div class="container container-3">
+
+            <div>
+            </div>
+            <div>
+            </div>
+
+        </div>
+        <!-- Close Container 3 -->
+
+
+        <footer class="footer"> <!-- footer -->
+          <div class="row">
+
+            <div class="col-xs-8">
+              <small>Fruit graphic by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a></small>
+
+            </div>
+            <div class="col-xs-3">
+              <small> © 2017 opta, Inc. </small>
+            </div>
+          </div>
+        </footer>
+        <br>
+      </body>
+
+
+
+      </html>
