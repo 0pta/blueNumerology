@@ -24,7 +24,7 @@ $("#name-bday-submit").submit(function(event) {
 function numAjax(data) {
   $.ajax ({
     method: 'GET',
-    url: 'http://galvanize-cors-proxy.herokuapp.com/' + data,
+    url: 'https://galvanize-cors-proxy.herokuapp.com/' + data,
     success: function (data) {
       console.log(data);
       // let nameStr = data.namereading;
