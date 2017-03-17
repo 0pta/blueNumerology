@@ -2,10 +2,10 @@ $( "#navBarText" ).hide();
 $( ".blub-form-img" ).css('visibility','hidden');
 $( ".blub-form-text" ).hide();
 
-function soulKarmaCalc () {
-  let month = $('#month').val();
-  
-}
+// function soulKarmaCalc () {
+//   let month = $('#month').val();
+//
+// }
 
 $("#name-bday-submit").submit(function(event) {
   event.preventDefault();
