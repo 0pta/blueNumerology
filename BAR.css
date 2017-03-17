@@ -14,13 +14,19 @@
 
 .nav {
   text-align: center;
-  margin-right: 150px;
+  margin-right: 450px;
 }
 
 a.nav-links {
   color: #3498DB;
   /*text-shadow: 1px 1px #3498DB;*/
   font-weight: 450;
+}
+
+#navBarText {
+  color: black;
+  margin-top: 50px;
+  font-weight: 400;
 }
 
 .header{
@@ -117,4 +123,8 @@ input:focus {
 
 #blub-form {
   margin-top: 30px;
+}
+
+.blub-form-text {
+  margin-top: 50px;
 }
