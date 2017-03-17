@@ -8,15 +8,20 @@
   align-content: center;
 }
 
-.navbar-fixed-top {
+/*.navbar-fixed-top {
   left: auto;
-}
+}*/
 
 .nav {
   text-align: center;
-  margin-right: 450px;
+  /*margin-right: 450px;*/
+
 }
 
+#navul {
+  margin-left: 36%;
+  margin-top: 5px;
+}
 a.nav-links {
   color: #3498DB;
   /*text-shadow: 1px 1px #3498DB;*/
@@ -29,9 +34,9 @@ a.nav-links {
   font-weight: 400;
 }
 
-.header{
+/*.header{
   margin-top: 40px;
-}
+}*/
 
 .jumbotron {
   background-color: #96D9FF;
@@ -118,7 +123,8 @@ input:focus {
 }
 
 .readings {
-  color: #3498DB;
+  color: #black;
+  font-weight: normal;
 }
 
 #blub-form {
@@ -127,4 +133,12 @@ input:focus {
 
 .blub-form-text {
   margin-top: 50px;
+}
+
+.hello-name {
+  text-align: center;
+}
+
+.blub-greeting {
+  margin-top: 72px;
 }
